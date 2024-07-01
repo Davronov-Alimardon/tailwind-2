@@ -9,11 +9,27 @@ export const Navbar = () => {
           <button className="bg-indigo-50 px-[15px] py-[10px] rounded-[32px]">
             Free Designs
           </button>
-          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px]">
-            Free Designs
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+            Licence
+          </button>
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+            Articles
+          </button>
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+            Contributors
+          </button>
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+            About
           </button>
         </div>
-        <div>corner element</div>
+        <div className="flex items-center gap-x-2">
+          <button className="bg-transparent rounded-[10px] px-[30px] py-[15px]">
+            Login
+          </button>
+          <button className="bg-slate-800 rounded-[10px] px-[30px] py-[15px] text-white">
+            Sign Up
+          </button>
+        </div>
       </div>
     </div>
   );
