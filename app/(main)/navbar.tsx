@@ -9,16 +9,16 @@ export const Navbar = () => {
           <button className="bg-indigo-50 px-[15px] py-[10px] rounded-[32px]">
             Free Designs
           </button>
-          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-muted-foreground">
             Licence
           </button>
-          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-muted-foreground">
             Articles
           </button>
-          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-muted-foreground">
             Contributors
           </button>
-          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-slate-600">
+          <button className="bg-transparent px-[15px] py-[10px] rounded-[32px] text-muted-foreground">
             About
           </button>
         </div>
